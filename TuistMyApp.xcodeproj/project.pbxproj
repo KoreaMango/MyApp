@@ -93,9 +93,9 @@
 		04A258C1291B886E00C581C8 /* Nine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine.swift; sourceTree = "<group>"; };
 		04A258C3291B887700C581C8 /* Ten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ten.swift; sourceTree = "<group>"; };
 		04A258F1291B8B5000C581C8 /* TuistMyApp-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuistMyApp-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A258F2291B8B5000C581C8 /* TuistMyApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TuistMyApp copy-Info.plist"; path = "/Users/kangmingyu/Desktop/tuist_MyApp/TuistMyApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		04A258F2291B8B5000C581C8 /* TuistMyApp Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TuistMyApp Dev-Info.plist"; path = "/Users/kangmingyu/Desktop/tuist_MyApp/TuistMyApp Dev-Info.plist"; sourceTree = "<absolute>"; };
 		04A25908291B8B5300C581C8 /* TuistMyApp-QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuistMyApp-QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A25909291B8B5300C581C8 /* TuistMyApp copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TuistMyApp copy copy-Info.plist"; path = "/Users/kangmingyu/Desktop/tuist_MyApp/TuistMyApp copy copy-Info.plist"; sourceTree = "<absolute>"; };
+		04A25909291B8B5300C581C8 /* TuistMyApp QA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TuistMyApp QA-Info.plist"; path = "/Users/kangmingyu/Desktop/tuist_MyApp/TuistMyApp QA-Info.plist"; sourceTree = "<absolute>"; };
 		20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TuistMyApp.swift"; sourceTree = "<group>"; };
 		6419106921DF9FC6005657DF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D781DC2BC5AF66AB57A9BF /* TuistMyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TuistMyApp-Info.plist"; sourceTree = "<group>"; };
@@ -220,8 +220,8 @@
 				55741F5FAE98BD454BCC50D9 /* Project */,
 				9A70A004C3D97077588EBFC9 /* Frameworks */,
 				00D0C060412527BDAA6F314E /* Products */,
-				04A258F2291B8B5000C581C8 /* TuistMyApp copy-Info.plist */,
-				04A25909291B8B5300C581C8 /* TuistMyApp copy copy-Info.plist */,
+				04A258F2291B8B5000C581C8 /* TuistMyApp Dev-Info.plist */,
+				04A25909291B8B5300C581C8 /* TuistMyApp QA-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
