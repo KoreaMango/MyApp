@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A258B2291B87E200C581C8 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B1291B87E200C581C8 /* One.swift */; };
+		04A258B4291B87F400C581C8 /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B3291B87F400C581C8 /* Two.swift */; };
+		04A258B6291B880800C581C8 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B5291B880800C581C8 /* Three.swift */; };
+		04A258B8291B881700C581C8 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B7291B881700C581C8 /* Four.swift */; };
+		04A258BA291B882100C581C8 /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B9291B882100C581C8 /* Five.swift */; };
+		04A258BC291B882A00C581C8 /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BB291B882A00C581C8 /* Six.swift */; };
+		04A258BE291B883E00C581C8 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BD291B883E00C581C8 /* Seven.swift */; };
+		04A258C0291B886300C581C8 /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BF291B886300C581C8 /* Eight.swift */; };
+		04A258C2291B886E00C581C8 /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C1291B886E00C581C8 /* Nine.swift */; };
+		04A258C4291B887700C581C8 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C3291B887700C581C8 /* Ten.swift */; };
 		328099BA712B9632155CFD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
 		53984409D1A24D1453C18296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */; };
 		82CC2A0BBE2A03C9EAEA7993 /* TuistBundle+TuistMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */; };
@@ -26,6 +36,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04A258B1291B87E200C581C8 /* One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One.swift; sourceTree = "<group>"; };
+		04A258B3291B87F400C581C8 /* Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two.swift; sourceTree = "<group>"; };
+		04A258B5291B880800C581C8 /* Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three.swift; sourceTree = "<group>"; };
+		04A258B7291B881700C581C8 /* Four.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Four.swift; sourceTree = "<group>"; };
+		04A258B9291B882100C581C8 /* Five.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five.swift; sourceTree = "<group>"; };
+		04A258BB291B882A00C581C8 /* Six.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Six.swift; sourceTree = "<group>"; };
+		04A258BD291B883E00C581C8 /* Seven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seven.swift; sourceTree = "<group>"; };
+		04A258BF291B886300C581C8 /* Eight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eight.swift; sourceTree = "<group>"; };
+		04A258C1291B886E00C581C8 /* Nine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine.swift; sourceTree = "<group>"; };
+		04A258C3291B887700C581C8 /* Ten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ten.swift; sourceTree = "<group>"; };
 		20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TuistMyApp.swift"; sourceTree = "<group>"; };
 		6419106921DF9FC6005657DF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D781DC2BC5AF66AB57A9BF /* TuistMyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TuistMyApp-Info.plist"; sourceTree = "<group>"; };
@@ -74,6 +94,16 @@
 			isa = PBXGroup;
 			children = (
 				9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */,
+				04A258B1291B87E200C581C8 /* One.swift */,
+				04A258B3291B87F400C581C8 /* Two.swift */,
+				04A258B5291B880800C581C8 /* Three.swift */,
+				04A258B7291B881700C581C8 /* Four.swift */,
+				04A258B9291B882100C581C8 /* Five.swift */,
+				04A258BB291B882A00C581C8 /* Six.swift */,
+				04A258BD291B883E00C581C8 /* Seven.swift */,
+				04A258BF291B886300C581C8 /* Eight.swift */,
+				04A258C1291B886E00C581C8 /* Nine.swift */,
+				04A258C3291B887700C581C8 /* Ten.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -163,8 +193,6 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = tuist.io;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 35D14C6D1377A7F06B9D205B /* Build configuration list for PBXProject "TuistMyApp" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -200,8 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A258BC291B882A00C581C8 /* Six.swift in Sources */,
 				82CC2A0BBE2A03C9EAEA7993 /* TuistBundle+TuistMyApp.swift in Sources */,
 				53984409D1A24D1453C18296 /* AppDelegate.swift in Sources */,
+				04A258C4291B887700C581C8 /* Ten.swift in Sources */,
+				04A258C2291B886E00C581C8 /* Nine.swift in Sources */,
+				04A258C0291B886300C581C8 /* Eight.swift in Sources */,
+				04A258B4291B87F400C581C8 /* Two.swift in Sources */,
+				04A258BE291B883E00C581C8 /* Seven.swift in Sources */,
+				04A258B6291B880800C581C8 /* Three.swift in Sources */,
+				04A258B2291B87E200C581C8 /* One.swift in Sources */,
+				04A258B8291B881700C581C8 /* Four.swift in Sources */,
+				04A258BA291B882100C581C8 /* Five.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
