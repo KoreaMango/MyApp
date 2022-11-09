@@ -17,12 +17,58 @@
 		04A258C0291B886300C581C8 /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BF291B886300C581C8 /* Eight.swift */; };
 		04A258C2291B886E00C581C8 /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C1291B886E00C581C8 /* Nine.swift */; };
 		04A258C4291B887700C581C8 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C3291B887700C581C8 /* Ten.swift */; };
+		04A258DE291B8B5000C581C8 /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BB291B882A00C581C8 /* Six.swift */; };
+		04A258DF291B8B5000C581C8 /* TuistBundle+TuistMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */; };
+		04A258E0291B8B5000C581C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */; };
+		04A258E1291B8B5000C581C8 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C3291B887700C581C8 /* Ten.swift */; };
+		04A258E2291B8B5000C581C8 /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C1291B886E00C581C8 /* Nine.swift */; };
+		04A258E3291B8B5000C581C8 /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BF291B886300C581C8 /* Eight.swift */; };
+		04A258E4291B8B5000C581C8 /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B3291B87F400C581C8 /* Two.swift */; };
+		04A258E5291B8B5000C581C8 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BD291B883E00C581C8 /* Seven.swift */; };
+		04A258E6291B8B5000C581C8 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B5291B880800C581C8 /* Three.swift */; };
+		04A258E7291B8B5000C581C8 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B1291B87E200C581C8 /* One.swift */; };
+		04A258E8291B8B5000C581C8 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B7291B881700C581C8 /* Four.swift */; };
+		04A258E9291B8B5000C581C8 /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B9291B882100C581C8 /* Five.swift */; };
+		04A258EB291B8B5000C581C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
+		04A258F5291B8B5300C581C8 /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BB291B882A00C581C8 /* Six.swift */; };
+		04A258F6291B8B5300C581C8 /* TuistBundle+TuistMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */; };
+		04A258F7291B8B5300C581C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */; };
+		04A258F8291B8B5300C581C8 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C3291B887700C581C8 /* Ten.swift */; };
+		04A258F9291B8B5300C581C8 /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C1291B886E00C581C8 /* Nine.swift */; };
+		04A258FA291B8B5300C581C8 /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BF291B886300C581C8 /* Eight.swift */; };
+		04A258FB291B8B5300C581C8 /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B3291B87F400C581C8 /* Two.swift */; };
+		04A258FC291B8B5300C581C8 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BD291B883E00C581C8 /* Seven.swift */; };
+		04A258FD291B8B5300C581C8 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B5291B880800C581C8 /* Three.swift */; };
+		04A258FE291B8B5300C581C8 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B1291B87E200C581C8 /* One.swift */; };
+		04A258FF291B8B5300C581C8 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B7291B881700C581C8 /* Four.swift */; };
+		04A25900291B8B5300C581C8 /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B9291B882100C581C8 /* Five.swift */; };
+		04A25902291B8B5300C581C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
 		328099BA712B9632155CFD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
 		53984409D1A24D1453C18296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */; };
 		82CC2A0BBE2A03C9EAEA7993 /* TuistBundle+TuistMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		04A258EC291B8B5000C581C8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A25903291B8B5300C581C8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FE48F5F794C6B15A5495231 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,6 +92,10 @@
 		04A258BF291B886300C581C8 /* Eight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eight.swift; sourceTree = "<group>"; };
 		04A258C1291B886E00C581C8 /* Nine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine.swift; sourceTree = "<group>"; };
 		04A258C3291B887700C581C8 /* Ten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ten.swift; sourceTree = "<group>"; };
+		04A258F1291B8B5000C581C8 /* TuistMyApp-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuistMyApp-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A258F2291B8B5000C581C8 /* TuistMyApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TuistMyApp copy-Info.plist"; path = "/Users/kangmingyu/Desktop/tuist_MyApp/TuistMyApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		04A25908291B8B5300C581C8 /* TuistMyApp-QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuistMyApp-QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A25909291B8B5300C581C8 /* TuistMyApp copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TuistMyApp copy copy-Info.plist"; path = "/Users/kangmingyu/Desktop/tuist_MyApp/TuistMyApp copy copy-Info.plist"; sourceTree = "<absolute>"; };
 		20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TuistMyApp.swift"; sourceTree = "<group>"; };
 		6419106921DF9FC6005657DF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D781DC2BC5AF66AB57A9BF /* TuistMyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TuistMyApp-Info.plist"; sourceTree = "<group>"; };
@@ -54,6 +104,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04A258ED291B8B5000C581C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A25904291B8B5300C581C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2318446F84356EA61B0304BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				E45529BA1D0467C7048E9A4F /* TuistMyApp.app */,
+				04A258F1291B8B5000C581C8 /* TuistMyApp-Dev.app */,
+				04A25908291B8B5300C581C8 /* TuistMyApp-QA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +220,8 @@
 				55741F5FAE98BD454BCC50D9 /* Project */,
 				9A70A004C3D97077588EBFC9 /* Frameworks */,
 				00D0C060412527BDAA6F314E /* Products */,
+				04A258F2291B8B5000C581C8 /* TuistMyApp copy-Info.plist */,
+				04A25909291B8B5300C581C8 /* TuistMyApp copy copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +236,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		04A258DC291B8B5000C581C8 /* TuistMyApp-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A258EE291B8B5000C581C8 /* Build configuration list for PBXNativeTarget "TuistMyApp-Dev" */;
+			buildPhases = (
+				04A258DD291B8B5000C581C8 /* Sources */,
+				04A258EA291B8B5000C581C8 /* Resources */,
+				04A258EC291B8B5000C581C8 /* Embed Frameworks */,
+				04A258ED291B8B5000C581C8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TuistMyApp-Dev";
+			productName = TuistMyApp;
+			productReference = 04A258F1291B8B5000C581C8 /* TuistMyApp-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A258F3291B8B5300C581C8 /* TuistMyApp-QA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A25905291B8B5300C581C8 /* Build configuration list for PBXNativeTarget "TuistMyApp-QA" */;
+			buildPhases = (
+				04A258F4291B8B5300C581C8 /* Sources */,
+				04A25901291B8B5300C581C8 /* Resources */,
+				04A25903291B8B5300C581C8 /* Embed Frameworks */,
+				04A25904291B8B5300C581C8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TuistMyApp-QA";
+			productName = TuistMyApp;
+			productReference = 04A25908291B8B5300C581C8 /* TuistMyApp-QA.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DF5F35627185A15B8978E378 /* TuistMyApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D04A3B02BD3BC0F8E4576AE2 /* Build configuration list for PBXNativeTarget "TuistMyApp" */;
@@ -208,11 +312,29 @@
 			projectRoot = "";
 			targets = (
 				DF5F35627185A15B8978E378 /* TuistMyApp */,
+				04A258DC291B8B5000C581C8 /* TuistMyApp-Dev */,
+				04A258F3291B8B5300C581C8 /* TuistMyApp-QA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04A258EA291B8B5000C581C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A258EB291B8B5000C581C8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A25901291B8B5300C581C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A25902291B8B5300C581C8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EF8832BE7E95BCFC78B2FC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +346,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04A258DD291B8B5000C581C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A258DE291B8B5000C581C8 /* Six.swift in Sources */,
+				04A258DF291B8B5000C581C8 /* TuistBundle+TuistMyApp.swift in Sources */,
+				04A258E0291B8B5000C581C8 /* AppDelegate.swift in Sources */,
+				04A258E1291B8B5000C581C8 /* Ten.swift in Sources */,
+				04A258E2291B8B5000C581C8 /* Nine.swift in Sources */,
+				04A258E3291B8B5000C581C8 /* Eight.swift in Sources */,
+				04A258E4291B8B5000C581C8 /* Two.swift in Sources */,
+				04A258E5291B8B5000C581C8 /* Seven.swift in Sources */,
+				04A258E6291B8B5000C581C8 /* Three.swift in Sources */,
+				04A258E7291B8B5000C581C8 /* One.swift in Sources */,
+				04A258E8291B8B5000C581C8 /* Four.swift in Sources */,
+				04A258E9291B8B5000C581C8 /* Five.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A258F4291B8B5300C581C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A258F5291B8B5300C581C8 /* Six.swift in Sources */,
+				04A258F6291B8B5300C581C8 /* TuistBundle+TuistMyApp.swift in Sources */,
+				04A258F7291B8B5300C581C8 /* AppDelegate.swift in Sources */,
+				04A258F8291B8B5300C581C8 /* Ten.swift in Sources */,
+				04A258F9291B8B5300C581C8 /* Nine.swift in Sources */,
+				04A258FA291B8B5300C581C8 /* Eight.swift in Sources */,
+				04A258FB291B8B5300C581C8 /* Two.swift in Sources */,
+				04A258FC291B8B5300C581C8 /* Seven.swift in Sources */,
+				04A258FD291B8B5300C581C8 /* Three.swift in Sources */,
+				04A258FE291B8B5300C581C8 /* One.swift in Sources */,
+				04A258FF291B8B5300C581C8 /* Four.swift in Sources */,
+				04A25900291B8B5300C581C8 /* Five.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E55CB51AF8F0CB36BFD0BD93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +406,92 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		04A258EF291B8B5000C581C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TuistMyApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A258F0291B8B5000C581C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TuistMyApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04A25906291B8B5300C581C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TuistMyApp copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A25907291B8B5300C581C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TuistMyApp copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		39CDEA0432640DA6BC78556C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -404,6 +650,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04A258EE291B8B5000C581C8 /* Build configuration list for PBXNativeTarget "TuistMyApp-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A258EF291B8B5000C581C8 /* Debug */,
+				04A258F0291B8B5000C581C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A25905291B8B5300C581C8 /* Build configuration list for PBXNativeTarget "TuistMyApp-QA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A25906291B8B5300C581C8 /* Debug */,
+				04A25907291B8B5300C581C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		35D14C6D1377A7F06B9D205B /* Build configuration list for PBXProject "TuistMyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
