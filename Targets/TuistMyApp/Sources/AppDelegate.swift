@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
         
-
+        let one = One()
+        one.showing()
+        
+        let two = Two()
+        two.showing()
+        
         return true
     }
 

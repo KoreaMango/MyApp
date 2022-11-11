@@ -1,7 +1,7 @@
 import Foundation
 
-class Four {
-    init() {
+class Four :Numbers {
+    override init() {
         print("HI")
     }
 }

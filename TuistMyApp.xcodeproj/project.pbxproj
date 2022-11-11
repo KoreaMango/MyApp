@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		16ACAE21B0832C6624FE1E13 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDAC208829A2B9E8445CE89 /* Ten.swift */; };
+		2C53B99453C4A4F70069D825 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87493F7D302AB1090551E389 /* Numbers.swift */; };
 		328099BA712B9632155CFD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
 		3BFB82EA833457473253A352 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777F671874EFE274024DDFD9 /* Seven.swift */; };
 		3F14F413F26537A8D259564A /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35586D92F2243A8CE9EE9C40 /* Six.swift */; };
@@ -45,6 +46,7 @@
 		6E7BE9495812D06B41BD6C13 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
 		777F671874EFE274024DDFD9 /* Seven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seven.swift; sourceTree = "<group>"; };
 		7EDAC208829A2B9E8445CE89 /* Ten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ten.swift; sourceTree = "<group>"; };
+		87493F7D302AB1090551E389 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 		94D781DC2BC5AF66AB57A9BF /* TuistMyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TuistMyApp-Info.plist"; sourceTree = "<group>"; };
 		9A27497FE6A7D55F41973E1E /* Eight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eight.swift; sourceTree = "<group>"; };
 		9A5DC8BC405FFD95B4E9E3CB /* One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				06DD4739F4AA007A3268E120 /* Five.swift */,
 				3ABCCD33154659750E59012A /* Four.swift */,
 				B8FD6B781E19B28B47564A2A /* Nine.swift */,
+				87493F7D302AB1090551E389 /* Numbers.swift */,
 				9A5DC8BC405FFD95B4E9E3CB /* One.swift */,
 				777F671874EFE274024DDFD9 /* Seven.swift */,
 				35586D92F2243A8CE9EE9C40 /* Six.swift */,
@@ -258,6 +261,7 @@
 				C404AEE83C6A4E501B412D3E /* Five.swift in Sources */,
 				EE584F424788AAB32C0CF0E1 /* Four.swift in Sources */,
 				FD420A13ADAE933049CBBA7A /* Nine.swift in Sources */,
+				2C53B99453C4A4F70069D825 /* Numbers.swift in Sources */,
 				E38F933AA1593D05CDE9EC16 /* One.swift in Sources */,
 				3BFB82EA833457473253A352 /* Seven.swift in Sources */,
 				3F14F413F26537A8D259564A /* Six.swift in Sources */,
