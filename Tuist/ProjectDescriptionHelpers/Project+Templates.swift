@@ -14,7 +14,71 @@ extension Project {
         targets += additionalTargets.flatMap({ makeFrameworkTargets(name: $0, platform: platform) })
         return Project(name: name,
                        organizationName: "tuist.io",
-                       targets: targets)
+                       options: .options(automaticSchemesOptions: .disabled),
+                       settings: .settings(
+                        configurations: [
+                            .debug(
+                                name: "Dev",
+                                settings: [:],
+                                xcconfig: "Config/App/Dev.xcconfig"
+                                
+                            ),
+                            .debug(
+                                name: "Alpha",
+                                settings: [:],
+                                xcconfig: "Config/App/Alpha.xcconfig"
+                            ),
+                            .debug(
+                                name: "Prod",
+                                settings: [:],
+                                xcconfig: "Config/App/Prod.xcconfig"
+                            ),
+                       ]),
+                       targets: targets,
+                       schemes: [
+                        Scheme(
+                            name: "MyApp-Dev",
+                            shared: true,
+                            buildAction: .buildAction(targets: ["\(name)"]),
+                            testAction: .targets(
+                                ["\(name)"],
+                                configuration: .configuration("Dev"),
+                                options: .options(coverage: true)
+                            ),
+                            runAction: .runAction(configuration: .configuration("Dev")),
+                            archiveAction: .archiveAction(configuration: .configuration("Dev")),
+                            profileAction: .profileAction(configuration: .configuration("Dev")),
+                            analyzeAction: .analyzeAction(configuration: .configuration("Dev"))
+                        ),
+                        Scheme(
+                            name: "MyApp-Alpha",
+                            shared: true,
+                            buildAction: .buildAction(targets: ["\(name)"]),
+                            testAction: .targets(
+                                ["\(name)"],
+                                configuration: .configuration("Alpha"),
+                                options: .options(coverage: true)
+                            ),
+                            runAction: .runAction(configuration: .configuration("Alpha")),
+                            archiveAction: .archiveAction(configuration: .configuration("Alpha")),
+                            profileAction: .profileAction(configuration: .configuration("DAlphaev")),
+                            analyzeAction: .analyzeAction(configuration: .configuration("Alpha"))
+                        ),
+                        Scheme(
+                            name: "MyApp-Prod",
+                            shared: true,
+                            buildAction: .buildAction(targets: ["\(name)"]),
+                            testAction: .targets(
+                                ["\(name)"],
+                                configuration: .configuration("Prod"),
+                                options: .options(coverage: true)
+                            ),
+                            runAction: .runAction(configuration: .configuration("Prod")),
+                            archiveAction: .archiveAction(configuration: .configuration("Prod")),
+                            profileAction: .profileAction(configuration: .configuration("Prod")),
+                            analyzeAction: .analyzeAction(configuration: .configuration("Prod"))
+                        )
+                       ])
     }
 
     // MARK: - Private

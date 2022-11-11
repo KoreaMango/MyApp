@@ -16,8 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         viewController.view.backgroundColor = .white
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
-        TuistMyAppKit.hello()
-        TuistMyAppUI.hello()
+        
 
         return true
     }

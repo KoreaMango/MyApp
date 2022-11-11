@@ -3,72 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04A258B2291B87E200C581C8 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B1291B87E200C581C8 /* One.swift */; };
-		04A258B4291B87F400C581C8 /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B3291B87F400C581C8 /* Two.swift */; };
-		04A258B6291B880800C581C8 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B5291B880800C581C8 /* Three.swift */; };
-		04A258B8291B881700C581C8 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B7291B881700C581C8 /* Four.swift */; };
-		04A258BA291B882100C581C8 /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B9291B882100C581C8 /* Five.swift */; };
-		04A258BC291B882A00C581C8 /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BB291B882A00C581C8 /* Six.swift */; };
-		04A258BE291B883E00C581C8 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BD291B883E00C581C8 /* Seven.swift */; };
-		04A258C0291B886300C581C8 /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BF291B886300C581C8 /* Eight.swift */; };
-		04A258C2291B886E00C581C8 /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C1291B886E00C581C8 /* Nine.swift */; };
-		04A258C4291B887700C581C8 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C3291B887700C581C8 /* Ten.swift */; };
-		04A258DE291B8B5000C581C8 /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BB291B882A00C581C8 /* Six.swift */; };
-		04A258DF291B8B5000C581C8 /* TuistBundle+TuistMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */; };
-		04A258E0291B8B5000C581C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */; };
-		04A258E1291B8B5000C581C8 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C3291B887700C581C8 /* Ten.swift */; };
-		04A258E2291B8B5000C581C8 /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C1291B886E00C581C8 /* Nine.swift */; };
-		04A258E3291B8B5000C581C8 /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BF291B886300C581C8 /* Eight.swift */; };
-		04A258E4291B8B5000C581C8 /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B3291B87F400C581C8 /* Two.swift */; };
-		04A258E5291B8B5000C581C8 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BD291B883E00C581C8 /* Seven.swift */; };
-		04A258E6291B8B5000C581C8 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B5291B880800C581C8 /* Three.swift */; };
-		04A258E7291B8B5000C581C8 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B1291B87E200C581C8 /* One.swift */; };
-		04A258E8291B8B5000C581C8 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B7291B881700C581C8 /* Four.swift */; };
-		04A258E9291B8B5000C581C8 /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B9291B882100C581C8 /* Five.swift */; };
-		04A258EB291B8B5000C581C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
-		04A258F5291B8B5300C581C8 /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BB291B882A00C581C8 /* Six.swift */; };
-		04A258F6291B8B5300C581C8 /* TuistBundle+TuistMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */; };
-		04A258F7291B8B5300C581C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */; };
-		04A258F8291B8B5300C581C8 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C3291B887700C581C8 /* Ten.swift */; };
-		04A258F9291B8B5300C581C8 /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258C1291B886E00C581C8 /* Nine.swift */; };
-		04A258FA291B8B5300C581C8 /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BF291B886300C581C8 /* Eight.swift */; };
-		04A258FB291B8B5300C581C8 /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B3291B87F400C581C8 /* Two.swift */; };
-		04A258FC291B8B5300C581C8 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258BD291B883E00C581C8 /* Seven.swift */; };
-		04A258FD291B8B5300C581C8 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B5291B880800C581C8 /* Three.swift */; };
-		04A258FE291B8B5300C581C8 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B1291B87E200C581C8 /* One.swift */; };
-		04A258FF291B8B5300C581C8 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B7291B881700C581C8 /* Four.swift */; };
-		04A25900291B8B5300C581C8 /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A258B9291B882100C581C8 /* Five.swift */; };
-		04A25902291B8B5300C581C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
+		16ACAE21B0832C6624FE1E13 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDAC208829A2B9E8445CE89 /* Ten.swift */; };
 		328099BA712B9632155CFD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
+		3BFB82EA833457473253A352 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777F671874EFE274024DDFD9 /* Seven.swift */; };
+		3F14F413F26537A8D259564A /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35586D92F2243A8CE9EE9C40 /* Six.swift */; };
 		53984409D1A24D1453C18296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */; };
 		82CC2A0BBE2A03C9EAEA7993 /* TuistBundle+TuistMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */; };
+		91F5C9F3DD5EED0D5F67BA2C /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27497FE6A7D55F41973E1E /* Eight.swift */; };
+		9DF87C7A010664E4CE3347DB /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB640BA42EFC2720B49BD4D /* Two.swift */; };
+		C404AEE83C6A4E501B412D3E /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DD4739F4AA007A3268E120 /* Five.swift */; };
+		E38F933AA1593D05CDE9EC16 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5DC8BC405FFD95B4E9E3CB /* One.swift */; };
+		EE584F424788AAB32C0CF0E1 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABCCD33154659750E59012A /* Four.swift */; };
+		F7AC514D76F2E7F5EB79E5F1 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF944F349C170F548C702289 /* Three.swift */; };
+		FD420A13ADAE933049CBBA7A /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD6B781E19B28B47564A2A /* Nine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		04A258EC291B8B5000C581C8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04A25903291B8B5300C581C8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0FE48F5F794C6B15A5495231 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,42 +36,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04A258B1291B87E200C581C8 /* One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One.swift; sourceTree = "<group>"; };
-		04A258B3291B87F400C581C8 /* Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two.swift; sourceTree = "<group>"; };
-		04A258B5291B880800C581C8 /* Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three.swift; sourceTree = "<group>"; };
-		04A258B7291B881700C581C8 /* Four.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Four.swift; sourceTree = "<group>"; };
-		04A258B9291B882100C581C8 /* Five.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five.swift; sourceTree = "<group>"; };
-		04A258BB291B882A00C581C8 /* Six.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Six.swift; sourceTree = "<group>"; };
-		04A258BD291B883E00C581C8 /* Seven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seven.swift; sourceTree = "<group>"; };
-		04A258BF291B886300C581C8 /* Eight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eight.swift; sourceTree = "<group>"; };
-		04A258C1291B886E00C581C8 /* Nine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine.swift; sourceTree = "<group>"; };
-		04A258C3291B887700C581C8 /* Ten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ten.swift; sourceTree = "<group>"; };
-		04A258F1291B8B5000C581C8 /* TuistMyApp-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuistMyApp-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A258F2291B8B5000C581C8 /* TuistMyApp Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TuistMyApp Dev-Info.plist"; path = "/Users/kangmingyu/Desktop/tuist_MyApp/TuistMyApp Dev-Info.plist"; sourceTree = "<absolute>"; };
-		04A25908291B8B5300C581C8 /* TuistMyApp-QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuistMyApp-QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A25909291B8B5300C581C8 /* TuistMyApp QA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TuistMyApp QA-Info.plist"; path = "/Users/kangmingyu/Desktop/tuist_MyApp/TuistMyApp QA-Info.plist"; sourceTree = "<absolute>"; };
+		06DD4739F4AA007A3268E120 /* Five.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five.swift; sourceTree = "<group>"; };
 		20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TuistMyApp.swift"; sourceTree = "<group>"; };
+		35586D92F2243A8CE9EE9C40 /* Six.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Six.swift; sourceTree = "<group>"; };
+		3ABCCD33154659750E59012A /* Four.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Four.swift; sourceTree = "<group>"; };
+		3EB640BA42EFC2720B49BD4D /* Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two.swift; sourceTree = "<group>"; };
 		6419106921DF9FC6005657DF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E7BE9495812D06B41BD6C13 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		777F671874EFE274024DDFD9 /* Seven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seven.swift; sourceTree = "<group>"; };
+		7EDAC208829A2B9E8445CE89 /* Ten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ten.swift; sourceTree = "<group>"; };
 		94D781DC2BC5AF66AB57A9BF /* TuistMyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TuistMyApp-Info.plist"; sourceTree = "<group>"; };
+		9A27497FE6A7D55F41973E1E /* Eight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eight.swift; sourceTree = "<group>"; };
+		9A5DC8BC405FFD95B4E9E3CB /* One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One.swift; sourceTree = "<group>"; };
 		9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8FD6B781E19B28B47564A2A /* Nine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine.swift; sourceTree = "<group>"; };
+		BF944F349C170F548C702289 /* Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three.swift; sourceTree = "<group>"; };
+		C8C025014A7B5920E836ADCC /* Alpha.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
 		E45529BA1D0467C7048E9A4F /* TuistMyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuistMyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6333C4D9F0B782B371F1D65 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04A258ED291B8B5000C581C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04A25904291B8B5300C581C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2318446F84356EA61B0304BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				E45529BA1D0467C7048E9A4F /* TuistMyApp.app */,
-				04A258F1291B8B5000C581C8 /* TuistMyApp-Dev.app */,
-				04A25908291B8B5300C581C8 /* TuistMyApp-QA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +82,16 @@
 				492E8EFA10D4BB9796325FE5 /* Sources */,
 			);
 			path = TuistMyApp;
+			sourceTree = "<group>";
+		};
+		23F4E3F1D53EB2ED80B0ED2A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C8C025014A7B5920E836ADCC /* Alpha.xcconfig */,
+				6E7BE9495812D06B41BD6C13 /* Dev.xcconfig */,
+				F6333C4D9F0B782B371F1D65 /* Prod.xcconfig */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		2561B35BED962BA03F5C408C /* Derived */ = {
@@ -160,16 +107,16 @@
 			isa = PBXGroup;
 			children = (
 				9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */,
-				04A258B1291B87E200C581C8 /* One.swift */,
-				04A258B3291B87F400C581C8 /* Two.swift */,
-				04A258B5291B880800C581C8 /* Three.swift */,
-				04A258B7291B881700C581C8 /* Four.swift */,
-				04A258B9291B882100C581C8 /* Five.swift */,
-				04A258BB291B882A00C581C8 /* Six.swift */,
-				04A258BD291B883E00C581C8 /* Seven.swift */,
-				04A258BF291B886300C581C8 /* Eight.swift */,
-				04A258C1291B886E00C581C8 /* Nine.swift */,
-				04A258C3291B887700C581C8 /* Ten.swift */,
+				9A27497FE6A7D55F41973E1E /* Eight.swift */,
+				06DD4739F4AA007A3268E120 /* Five.swift */,
+				3ABCCD33154659750E59012A /* Four.swift */,
+				B8FD6B781E19B28B47564A2A /* Nine.swift */,
+				9A5DC8BC405FFD95B4E9E3CB /* One.swift */,
+				777F671874EFE274024DDFD9 /* Seven.swift */,
+				35586D92F2243A8CE9EE9C40 /* Six.swift */,
+				7EDAC208829A2B9E8445CE89 /* Ten.swift */,
+				BF944F349C170F548C702289 /* Three.swift */,
+				3EB640BA42EFC2720B49BD4D /* Two.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -177,6 +124,7 @@
 		55741F5FAE98BD454BCC50D9 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				6E396D64C7F4434B4674A569 /* Config */,
 				2561B35BED962BA03F5C408C /* Derived */,
 				659A12727012DAC2E56F3B01 /* Targets */,
 			);
@@ -189,6 +137,14 @@
 				23E2E05FE168C197EE1DD520 /* TuistMyApp */,
 			);
 			path = Targets;
+			sourceTree = "<group>";
+		};
+		6E396D64C7F4434B4674A569 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				23F4E3F1D53EB2ED80B0ED2A /* App */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		728FAC8361F4E8DBE6FF14B0 /* Sources */ = {
@@ -220,8 +176,6 @@
 				55741F5FAE98BD454BCC50D9 /* Project */,
 				9A70A004C3D97077588EBFC9 /* Frameworks */,
 				00D0C060412527BDAA6F314E /* Products */,
-				04A258F2291B8B5000C581C8 /* TuistMyApp Dev-Info.plist */,
-				04A25909291B8B5300C581C8 /* TuistMyApp QA-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,42 +190,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04A258DC291B8B5000C581C8 /* TuistMyApp-Dev */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04A258EE291B8B5000C581C8 /* Build configuration list for PBXNativeTarget "TuistMyApp-Dev" */;
-			buildPhases = (
-				04A258DD291B8B5000C581C8 /* Sources */,
-				04A258EA291B8B5000C581C8 /* Resources */,
-				04A258EC291B8B5000C581C8 /* Embed Frameworks */,
-				04A258ED291B8B5000C581C8 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TuistMyApp-Dev";
-			productName = TuistMyApp;
-			productReference = 04A258F1291B8B5000C581C8 /* TuistMyApp-Dev.app */;
-			productType = "com.apple.product-type.application";
-		};
-		04A258F3291B8B5300C581C8 /* TuistMyApp-QA */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04A25905291B8B5300C581C8 /* Build configuration list for PBXNativeTarget "TuistMyApp-QA" */;
-			buildPhases = (
-				04A258F4291B8B5300C581C8 /* Sources */,
-				04A25901291B8B5300C581C8 /* Resources */,
-				04A25903291B8B5300C581C8 /* Embed Frameworks */,
-				04A25904291B8B5300C581C8 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TuistMyApp-QA";
-			productName = TuistMyApp;
-			productReference = 04A25908291B8B5300C581C8 /* TuistMyApp-QA.app */;
-			productType = "com.apple.product-type.application";
-		};
 		DF5F35627185A15B8978E378 /* TuistMyApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D04A3B02BD3BC0F8E4576AE2 /* Build configuration list for PBXNativeTarget "TuistMyApp" */;
@@ -297,6 +215,8 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = tuist.io;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 35D14C6D1377A7F06B9D205B /* Build configuration list for PBXProject "TuistMyApp" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -312,29 +232,11 @@
 			projectRoot = "";
 			targets = (
 				DF5F35627185A15B8978E378 /* TuistMyApp */,
-				04A258DC291B8B5000C581C8 /* TuistMyApp-Dev */,
-				04A258F3291B8B5300C581C8 /* TuistMyApp-QA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04A258EA291B8B5000C581C8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04A258EB291B8B5000C581C8 /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04A25901291B8B5300C581C8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04A25902291B8B5300C581C8 /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8EF8832BE7E95BCFC78B2FC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,207 +248,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04A258DD291B8B5000C581C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04A258DE291B8B5000C581C8 /* Six.swift in Sources */,
-				04A258DF291B8B5000C581C8 /* TuistBundle+TuistMyApp.swift in Sources */,
-				04A258E0291B8B5000C581C8 /* AppDelegate.swift in Sources */,
-				04A258E1291B8B5000C581C8 /* Ten.swift in Sources */,
-				04A258E2291B8B5000C581C8 /* Nine.swift in Sources */,
-				04A258E3291B8B5000C581C8 /* Eight.swift in Sources */,
-				04A258E4291B8B5000C581C8 /* Two.swift in Sources */,
-				04A258E5291B8B5000C581C8 /* Seven.swift in Sources */,
-				04A258E6291B8B5000C581C8 /* Three.swift in Sources */,
-				04A258E7291B8B5000C581C8 /* One.swift in Sources */,
-				04A258E8291B8B5000C581C8 /* Four.swift in Sources */,
-				04A258E9291B8B5000C581C8 /* Five.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04A258F4291B8B5300C581C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04A258F5291B8B5300C581C8 /* Six.swift in Sources */,
-				04A258F6291B8B5300C581C8 /* TuistBundle+TuistMyApp.swift in Sources */,
-				04A258F7291B8B5300C581C8 /* AppDelegate.swift in Sources */,
-				04A258F8291B8B5300C581C8 /* Ten.swift in Sources */,
-				04A258F9291B8B5300C581C8 /* Nine.swift in Sources */,
-				04A258FA291B8B5300C581C8 /* Eight.swift in Sources */,
-				04A258FB291B8B5300C581C8 /* Two.swift in Sources */,
-				04A258FC291B8B5300C581C8 /* Seven.swift in Sources */,
-				04A258FD291B8B5300C581C8 /* Three.swift in Sources */,
-				04A258FE291B8B5300C581C8 /* One.swift in Sources */,
-				04A258FF291B8B5300C581C8 /* Four.swift in Sources */,
-				04A25900291B8B5300C581C8 /* Five.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E55CB51AF8F0CB36BFD0BD93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A258BC291B882A00C581C8 /* Six.swift in Sources */,
 				82CC2A0BBE2A03C9EAEA7993 /* TuistBundle+TuistMyApp.swift in Sources */,
 				53984409D1A24D1453C18296 /* AppDelegate.swift in Sources */,
-				04A258C4291B887700C581C8 /* Ten.swift in Sources */,
-				04A258C2291B886E00C581C8 /* Nine.swift in Sources */,
-				04A258C0291B886300C581C8 /* Eight.swift in Sources */,
-				04A258B4291B87F400C581C8 /* Two.swift in Sources */,
-				04A258BE291B883E00C581C8 /* Seven.swift in Sources */,
-				04A258B6291B880800C581C8 /* Three.swift in Sources */,
-				04A258B2291B87E200C581C8 /* One.swift in Sources */,
-				04A258B8291B881700C581C8 /* Four.swift in Sources */,
-				04A258BA291B882100C581C8 /* Five.swift in Sources */,
+				91F5C9F3DD5EED0D5F67BA2C /* Eight.swift in Sources */,
+				C404AEE83C6A4E501B412D3E /* Five.swift in Sources */,
+				EE584F424788AAB32C0CF0E1 /* Four.swift in Sources */,
+				FD420A13ADAE933049CBBA7A /* Nine.swift in Sources */,
+				E38F933AA1593D05CDE9EC16 /* One.swift in Sources */,
+				3BFB82EA833457473253A352 /* Seven.swift in Sources */,
+				3F14F413F26537A8D259564A /* Six.swift in Sources */,
+				16ACAE21B0832C6624FE1E13 /* Ten.swift in Sources */,
+				F7AC514D76F2E7F5EB79E5F1 /* Three.swift in Sources */,
+				9DF87C7A010664E4CE3347DB /* Two.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		04A258EF291B8B5000C581C8 /* Debug */ = {
+		4B435FA0D9A099113B304959 /* Dev */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "TuistMyApp copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		04A258F0291B8B5000C581C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "TuistMyApp copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		04A25906291B8B5300C581C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "TuistMyApp copy copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		04A25907291B8B5300C581C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "TuistMyApp copy copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		39CDEA0432640DA6BC78556C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		771FBBAEBA6922C038673A4A /* Debug */ = {
-			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7BE9495812D06B41BD6C13 /* Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -602,30 +328,69 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = Debug;
+			name = Dev;
 		};
-		A5083363A03D90D5F5DF2ED6 /* Release */ = {
+		4FE35C4FECDE5E0AB27FCCFF /* Alpha */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C025014A7B5920E836ADCC /* Alpha.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/TuistMyApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
 					"$(inherited)",
-					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
-				PRODUCT_NAME = TuistMyApp;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = Release;
+			name = Alpha;
 		};
-		E3FBB7E0CC3559F3BC94A38C /* Debug */ = {
+		A44E6A555B2363C8F3E60106 /* Prod */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -645,46 +410,134 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Prod;
+		};
+		B982D713FDB81F8F1545A99F /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TuistMyApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
+				PRODUCT_NAME = TuistMyApp;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
+		E261168FE02DA1EDDEF3444F /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TuistMyApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
+				PRODUCT_NAME = TuistMyApp;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Alpha;
+		};
+		F3D2E8F9F2A0C4054CFC46A8 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6333C4D9F0B782B371F1D65 /* Prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Prod;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04A258EE291B8B5000C581C8 /* Build configuration list for PBXNativeTarget "TuistMyApp-Dev" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04A258EF291B8B5000C581C8 /* Debug */,
-				04A258F0291B8B5000C581C8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04A25905291B8B5300C581C8 /* Build configuration list for PBXNativeTarget "TuistMyApp-QA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04A25906291B8B5300C581C8 /* Debug */,
-				04A25907291B8B5300C581C8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		35D14C6D1377A7F06B9D205B /* Build configuration list for PBXProject "TuistMyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				771FBBAEBA6922C038673A4A /* Debug */,
-				39CDEA0432640DA6BC78556C /* Release */,
+				4FE35C4FECDE5E0AB27FCCFF /* Alpha */,
+				4B435FA0D9A099113B304959 /* Dev */,
+				F3D2E8F9F2A0C4054CFC46A8 /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Alpha;
 		};
 		D04A3B02BD3BC0F8E4576AE2 /* Build configuration list for PBXNativeTarget "TuistMyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3FBB7E0CC3559F3BC94A38C /* Debug */,
-				A5083363A03D90D5F5DF2ED6 /* Release */,
+				E261168FE02DA1EDDEF3444F /* Alpha */,
+				B982D713FDB81F8F1545A99F /* Dev */,
+				A44E6A555B2363C8F3E60106 /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Alpha;
 		};
 /* End XCConfigurationList section */
 	};
