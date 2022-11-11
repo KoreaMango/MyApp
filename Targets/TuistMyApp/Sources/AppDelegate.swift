@@ -1,6 +1,4 @@
 import UIKit
-import TuistMyAppKit
-import TuistMyAppUI
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

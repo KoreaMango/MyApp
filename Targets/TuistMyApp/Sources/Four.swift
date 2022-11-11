@@ -1,6 +1,6 @@
 import Foundation
 
-class Four() {
+class Four {
     init() {
         print("HI")
     }
