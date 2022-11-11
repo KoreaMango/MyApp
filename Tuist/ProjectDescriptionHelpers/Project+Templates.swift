@@ -7,10 +7,11 @@ import ProjectDescription
 
 extension Project {
     /// Helper function to create the Project for this ExampleApp
-    public static func app(name: String, platform: Platform, additionalTargets: [String]) -> Project {
+    public static func app(name: String, platform: Platform, additionalTargets: [String], isDeploy : Bool) -> Project {
         var targets = makeAppTargets(name: name,
                                      platform: platform,
-                                     dependencies: additionalTargets.map { TargetDependency.target(name: $0) })
+                                     dependencies: additionalTargets.map { TargetDependency.target(name: $0) },
+                                    isDeploy: isDeploy)
         targets += additionalTargets.flatMap({ makeFrameworkTargets(name: $0, platform: platform) })
         return Project(name: name,
                        organizationName: "tuist.io",
@@ -98,7 +99,7 @@ extension Project {
     }
 
     /// Helper function to create the application target and the unit test target.
-    private static func makeAppTargets(name: String, platform: Platform, dependencies: [TargetDependency]) -> [Target] {
+    private static func makeAppTargets(name: String, platform: Platform, dependencies: [TargetDependency], isDeploy : Bool) -> [Target] {
         let platform: Platform = platform
         let infoPlist: [String: InfoPlist.Value] = [
             "CFBundleShortVersionString": "1.0",
@@ -107,8 +108,19 @@ extension Project {
             "UILaunchStoryboardName": "LaunchScreen"
             ]
 
-        let mainTarget = Target(
-            name: name,
+        let mainTarget =
+        isDeploy
+        ?Target (
+             name: name,
+             platform: platform,
+             product: .app,
+             bundleId: "io.tuist.\(name)",
+             infoPlist: .extendingDefault(with: infoPlist),
+             sources: ["Targets/\(name)/Sources/**"],
+             resources: ["Targets/\(name)/Resources/**"],
+             dependencies: dependencies)
+        :Target(
+            name: ("Dev_\(name)"),
             platform: platform,
             product: .app,
             bundleId: "io.tuist.\(name)",

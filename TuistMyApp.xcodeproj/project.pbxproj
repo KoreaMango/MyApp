@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16ACAE21B0832C6624FE1E13 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDAC208829A2B9E8445CE89 /* Ten.swift */; };
-		2C53B99453C4A4F70069D825 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87493F7D302AB1090551E389 /* Numbers.swift */; };
-		328099BA712B9632155CFD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
-		3BFB82EA833457473253A352 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777F671874EFE274024DDFD9 /* Seven.swift */; };
-		3F14F413F26537A8D259564A /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35586D92F2243A8CE9EE9C40 /* Six.swift */; };
-		53984409D1A24D1453C18296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */; };
-		82CC2A0BBE2A03C9EAEA7993 /* TuistBundle+TuistMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */; };
-		91F5C9F3DD5EED0D5F67BA2C /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27497FE6A7D55F41973E1E /* Eight.swift */; };
-		9DF87C7A010664E4CE3347DB /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB640BA42EFC2720B49BD4D /* Two.swift */; };
-		C404AEE83C6A4E501B412D3E /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DD4739F4AA007A3268E120 /* Five.swift */; };
-		E38F933AA1593D05CDE9EC16 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5DC8BC405FFD95B4E9E3CB /* One.swift */; };
-		EE584F424788AAB32C0CF0E1 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABCCD33154659750E59012A /* Four.swift */; };
-		F7AC514D76F2E7F5EB79E5F1 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF944F349C170F548C702289 /* Three.swift */; };
-		FD420A13ADAE933049CBBA7A /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD6B781E19B28B47564A2A /* Nine.swift */; };
+		1E39FA62159A12AA8B4DCF94 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF944F349C170F548C702289 /* Three.swift */; };
+		21A20D82CD44A7CB55356423 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87493F7D302AB1090551E389 /* Numbers.swift */; };
+		263866AD5E09351BEE5DA9C8 /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35586D92F2243A8CE9EE9C40 /* Six.swift */; };
+		3F379BF3CEFFE81F40C836E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */; };
+		47EC486C20AB0AA757A35ABF /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABCCD33154659750E59012A /* Four.swift */; };
+		5D6FC7967746E972061EA940 /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DD4739F4AA007A3268E120 /* Five.swift */; };
+		8B757519FD156B1372CD4B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6419106921DF9FC6005657DF /* LaunchScreen.storyboard */; };
+		B39B24C7CEF64B09F0267C96 /* Nine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD6B781E19B28B47564A2A /* Nine.swift */; };
+		BADBE90B0C9F2763A2E2798B /* TuistBundle+DevTuistMyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335DA3D8B19023210BE059AC /* TuistBundle+DevTuistMyApp.swift */; };
+		C909D6B87399E1A801971030 /* Eight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27497FE6A7D55F41973E1E /* Eight.swift */; };
+		D11919F7F2EC9C5DE344191D /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDAC208829A2B9E8445CE89 /* Ten.swift */; };
+		DFB31846296EFF5822D4F4D5 /* Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB640BA42EFC2720B49BD4D /* Two.swift */; };
+		E72AF654526F5940C6186573 /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5DC8BC405FFD95B4E9E3CB /* One.swift */; };
+		F4A6D4ED10E73BE442AFCDF9 /* Seven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777F671874EFE274024DDFD9 /* Seven.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0FE48F5F794C6B15A5495231 /* Embed Frameworks */ = {
+		A0AA583BEA0BBD9EF5F1E186 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -38,28 +38,28 @@
 
 /* Begin PBXFileReference section */
 		06DD4739F4AA007A3268E120 /* Five.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five.swift; sourceTree = "<group>"; };
-		20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TuistMyApp.swift"; sourceTree = "<group>"; };
+		1BDBAC1295C98F4E2D86ABAB /* Dev_TuistMyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dev_TuistMyApp-Info.plist"; sourceTree = "<group>"; };
+		335DA3D8B19023210BE059AC /* TuistBundle+DevTuistMyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DevTuistMyApp.swift"; sourceTree = "<group>"; };
 		35586D92F2243A8CE9EE9C40 /* Six.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Six.swift; sourceTree = "<group>"; };
 		3ABCCD33154659750E59012A /* Four.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Four.swift; sourceTree = "<group>"; };
 		3EB640BA42EFC2720B49BD4D /* Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two.swift; sourceTree = "<group>"; };
+		5AB825C053D69F73B0EA6471 /* Dev_TuistMyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dev_TuistMyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6419106921DF9FC6005657DF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E7BE9495812D06B41BD6C13 /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
 		777F671874EFE274024DDFD9 /* Seven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seven.swift; sourceTree = "<group>"; };
 		7EDAC208829A2B9E8445CE89 /* Ten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ten.swift; sourceTree = "<group>"; };
 		87493F7D302AB1090551E389 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
-		94D781DC2BC5AF66AB57A9BF /* TuistMyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TuistMyApp-Info.plist"; sourceTree = "<group>"; };
 		9A27497FE6A7D55F41973E1E /* Eight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eight.swift; sourceTree = "<group>"; };
 		9A5DC8BC405FFD95B4E9E3CB /* One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One.swift; sourceTree = "<group>"; };
 		9C9B660CB1C9FBCB02B2A557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FD6B781E19B28B47564A2A /* Nine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine.swift; sourceTree = "<group>"; };
 		BF944F349C170F548C702289 /* Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three.swift; sourceTree = "<group>"; };
 		C8C025014A7B5920E836ADCC /* Alpha.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
-		E45529BA1D0467C7048E9A4F /* TuistMyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuistMyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6333C4D9F0B782B371F1D65 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2318446F84356EA61B0304BC /* Frameworks */ = {
+		6694DF32D365EC0882DF476B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,7 +72,7 @@
 		00D0C060412527BDAA6F314E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E45529BA1D0467C7048E9A4F /* TuistMyApp.app */,
+				5AB825C053D69F73B0EA6471 /* Dev_TuistMyApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 		728FAC8361F4E8DBE6FF14B0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				20CD2576680D2201C361F8BE /* TuistBundle+TuistMyApp.swift */,
+				335DA3D8B19023210BE059AC /* TuistBundle+DevTuistMyApp.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 		F6285F36D6D845A05796D5D4 /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
-				94D781DC2BC5AF66AB57A9BF /* TuistMyApp-Info.plist */,
+				1BDBAC1295C98F4E2D86ABAB /* Dev_TuistMyApp-Info.plist */,
 			);
 			path = InfoPlists;
 			sourceTree = "<group>";
@@ -193,22 +193,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF5F35627185A15B8978E378 /* TuistMyApp */ = {
+		CFFD46D96A5A0320D5D43983 /* Dev_TuistMyApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04A3B02BD3BC0F8E4576AE2 /* Build configuration list for PBXNativeTarget "TuistMyApp" */;
+			buildConfigurationList = 6DE92603152377DB30D6D6CA /* Build configuration list for PBXNativeTarget "Dev_TuistMyApp" */;
 			buildPhases = (
-				E55CB51AF8F0CB36BFD0BD93 /* Sources */,
-				8EF8832BE7E95BCFC78B2FC0 /* Resources */,
-				0FE48F5F794C6B15A5495231 /* Embed Frameworks */,
-				2318446F84356EA61B0304BC /* Frameworks */,
+				E22D07D89ECCE17D5026AF59 /* Sources */,
+				58DB0568660D079E3B74446E /* Resources */,
+				A0AA583BEA0BBD9EF5F1E186 /* Embed Frameworks */,
+				6694DF32D365EC0882DF476B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TuistMyApp;
-			productName = TuistMyApp;
-			productReference = E45529BA1D0467C7048E9A4F /* TuistMyApp.app */;
+			name = Dev_TuistMyApp;
+			productName = Dev_TuistMyApp;
+			productReference = 5AB825C053D69F73B0EA6471 /* Dev_TuistMyApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -234,46 +234,68 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF5F35627185A15B8978E378 /* TuistMyApp */,
+				CFFD46D96A5A0320D5D43983 /* Dev_TuistMyApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8EF8832BE7E95BCFC78B2FC0 /* Resources */ = {
+		58DB0568660D079E3B74446E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				328099BA712B9632155CFD0D /* LaunchScreen.storyboard in Resources */,
+				8B757519FD156B1372CD4B1F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E55CB51AF8F0CB36BFD0BD93 /* Sources */ = {
+		E22D07D89ECCE17D5026AF59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CC2A0BBE2A03C9EAEA7993 /* TuistBundle+TuistMyApp.swift in Sources */,
-				53984409D1A24D1453C18296 /* AppDelegate.swift in Sources */,
-				91F5C9F3DD5EED0D5F67BA2C /* Eight.swift in Sources */,
-				C404AEE83C6A4E501B412D3E /* Five.swift in Sources */,
-				EE584F424788AAB32C0CF0E1 /* Four.swift in Sources */,
-				FD420A13ADAE933049CBBA7A /* Nine.swift in Sources */,
-				2C53B99453C4A4F70069D825 /* Numbers.swift in Sources */,
-				E38F933AA1593D05CDE9EC16 /* One.swift in Sources */,
-				3BFB82EA833457473253A352 /* Seven.swift in Sources */,
-				3F14F413F26537A8D259564A /* Six.swift in Sources */,
-				16ACAE21B0832C6624FE1E13 /* Ten.swift in Sources */,
-				F7AC514D76F2E7F5EB79E5F1 /* Three.swift in Sources */,
-				9DF87C7A010664E4CE3347DB /* Two.swift in Sources */,
+				BADBE90B0C9F2763A2E2798B /* TuistBundle+DevTuistMyApp.swift in Sources */,
+				3F379BF3CEFFE81F40C836E4 /* AppDelegate.swift in Sources */,
+				C909D6B87399E1A801971030 /* Eight.swift in Sources */,
+				5D6FC7967746E972061EA940 /* Five.swift in Sources */,
+				47EC486C20AB0AA757A35ABF /* Four.swift in Sources */,
+				B39B24C7CEF64B09F0267C96 /* Nine.swift in Sources */,
+				21A20D82CD44A7CB55356423 /* Numbers.swift in Sources */,
+				E72AF654526F5940C6186573 /* One.swift in Sources */,
+				F4A6D4ED10E73BE442AFCDF9 /* Seven.swift in Sources */,
+				263866AD5E09351BEE5DA9C8 /* Six.swift in Sources */,
+				D11919F7F2EC9C5DE344191D /* Ten.swift in Sources */,
+				1E39FA62159A12AA8B4DCF94 /* Three.swift in Sources */,
+				DFB31846296EFF5822D4F4D5 /* Two.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3DF9C3981D4636323AEEDBE6 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Dev_TuistMyApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
+				PRODUCT_NAME = Dev_TuistMyApp;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
 		4B435FA0D9A099113B304959 /* Dev */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E7BE9495812D06B41BD6C13 /* Dev.xcconfig */;
@@ -394,63 +416,19 @@
 			};
 			name = Alpha;
 		};
-		A44E6A555B2363C8F3E60106 /* Prod */ = {
+		891E37CE8ED653DC89590026 /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/TuistMyApp-Info.plist";
+				INFOPLIST_FILE = "Derived/InfoPlists/Dev_TuistMyApp-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
-				PRODUCT_NAME = TuistMyApp;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Prod;
-		};
-		B982D713FDB81F8F1545A99F /* Dev */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/TuistMyApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
-				PRODUCT_NAME = TuistMyApp;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_COMPILATION_MODE = singlefile;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Dev;
-		};
-		E261168FE02DA1EDDEF3444F /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Derived/InfoPlists/TuistMyApp-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
-				PRODUCT_NAME = TuistMyApp;
+				PRODUCT_NAME = Dev_TuistMyApp;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
@@ -459,6 +437,28 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Alpha;
+		};
+		A00C97E8D2CC9BBFE46F6FDC /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Dev_TuistMyApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TuistMyApp;
+				PRODUCT_NAME = Dev_TuistMyApp;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Prod;
 		};
 		F3D2E8F9F2A0C4054CFC46A8 /* Prod */ = {
 			isa = XCBuildConfiguration;
@@ -533,12 +533,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Alpha;
 		};
-		D04A3B02BD3BC0F8E4576AE2 /* Build configuration list for PBXNativeTarget "TuistMyApp" */ = {
+		6DE92603152377DB30D6D6CA /* Build configuration list for PBXNativeTarget "Dev_TuistMyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E261168FE02DA1EDDEF3444F /* Alpha */,
-				B982D713FDB81F8F1545A99F /* Dev */,
-				A44E6A555B2363C8F3E60106 /* Prod */,
+				891E37CE8ED653DC89590026 /* Alpha */,
+				3DF9C3981D4636323AEEDBE6 /* Dev */,
+				A00C97E8D2CC9BBFE46F6FDC /* Prod */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Alpha;

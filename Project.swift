@@ -1,4 +1,5 @@
 import ProjectDescription
+import Foundation
 import ProjectDescriptionHelpers
 import MyPlugin
 
@@ -18,6 +19,10 @@ import MyPlugin
 
  */
 
+// MARK: - Environment
+let tuistDeploy = ProcessInfo.processInfo.environment["TUIST_DEPLOY"]
+let isDeploy = (tuistDeploy == "App")
+
 // MARK: - Project
 
 // Local plugin loaded
@@ -26,4 +31,5 @@ let localHelper = LocalHelper(name: "MyPlugin")
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
 let project = Project.app(name: "TuistMyApp",
                           platform: .iOS,
-                          additionalTargets: [])
+                          additionalTargets: [],
+                          isDeploy: isDeploy)
