@@ -1,4 +1,6 @@
 import UIKit
+import TuistMyAppKit
+import TuistMyAppUI
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,13 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         viewController.view.backgroundColor = .white
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
-        
-        let one = One()
-        one.showing()
-        
-        let two = Two()
-        two.showing()
-        
+        TuistMyAppKit.hello()
+        TuistMyAppUI.hello()
+
         return true
     }
 

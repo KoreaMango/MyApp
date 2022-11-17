@@ -7,79 +7,19 @@ import ProjectDescription
 
 extension Project {
     /// Helper function to create the Project for this ExampleApp
-    public static func app(name: String, platform: Platform, additionalTargets: [String], isDeploy : Bool) -> Project {
+    public static func app(name: String, platform: Platform, additionalTargets: [String], isExceptDepen : Bool) -> Project {
         var targets = makeAppTargets(name: name,
                                      platform: platform,
-                                     dependencies: additionalTargets.map { TargetDependency.target(name: $0) },
-                                    isDeploy: isDeploy)
+                                     dependencies:
+                                        isExceptDepen
+                                        ? []
+                                        : additionalTargets.map {
+                                            TargetDependency.target(name: $0)
+                                        })
         targets += additionalTargets.flatMap({ makeFrameworkTargets(name: $0, platform: platform) })
         return Project(name: name,
                        organizationName: "tuist.io",
-                       options: .options(automaticSchemesOptions: .disabled),
-                       settings: .settings(
-                        configurations: [
-                            .debug(
-                                name: "Dev",
-                                settings: [:],
-                                xcconfig: "Config/App/Dev.xcconfig"
-                                
-                            ),
-                            .debug(
-                                name: "Alpha",
-                                settings: [:],
-                                xcconfig: "Config/App/Alpha.xcconfig"
-                            ),
-                            .debug(
-                                name: "Prod",
-                                settings: [:],
-                                xcconfig: "Config/App/Prod.xcconfig"
-                            ),
-                       ]),
-                       targets: targets,
-                       schemes: [
-                        Scheme(
-                            name: "MyApp-Dev",
-                            shared: true,
-                            buildAction: .buildAction(targets: ["\(name)"]),
-                            testAction: .targets(
-                                ["\(name)"],
-                                configuration: .configuration("Dev"),
-                                options: .options(coverage: true)
-                            ),
-                            runAction: .runAction(configuration: .configuration("Dev")),
-                            archiveAction: .archiveAction(configuration: .configuration("Dev")),
-                            profileAction: .profileAction(configuration: .configuration("Dev")),
-                            analyzeAction: .analyzeAction(configuration: .configuration("Dev"))
-                        ),
-                        Scheme(
-                            name: "MyApp-Alpha",
-                            shared: true,
-                            buildAction: .buildAction(targets: ["\(name)"]),
-                            testAction: .targets(
-                                ["\(name)"],
-                                configuration: .configuration("Alpha"),
-                                options: .options(coverage: true)
-                            ),
-                            runAction: .runAction(configuration: .configuration("Alpha")),
-                            archiveAction: .archiveAction(configuration: .configuration("Alpha")),
-                            profileAction: .profileAction(configuration: .configuration("DAlphaev")),
-                            analyzeAction: .analyzeAction(configuration: .configuration("Alpha"))
-                        ),
-                        Scheme(
-                            name: "MyApp-Prod",
-                            shared: true,
-                            buildAction: .buildAction(targets: ["\(name)"]),
-                            testAction: .targets(
-                                ["\(name)"],
-                                configuration: .configuration("Prod"),
-                                options: .options(coverage: true)
-                            ),
-                            runAction: .runAction(configuration: .configuration("Prod")),
-                            archiveAction: .archiveAction(configuration: .configuration("Prod")),
-                            profileAction: .profileAction(configuration: .configuration("Prod")),
-                            analyzeAction: .analyzeAction(configuration: .configuration("Prod"))
-                        )
-                       ])
+                       targets: targets)
     }
 
     // MARK: - Private
@@ -94,12 +34,19 @@ extension Project {
                 sources: ["Targets/\(name)/Sources/**"],
                 resources: [],
                 dependencies: [])
-        
-        return [sources]
+        let tests = Target(name: "\(name)Tests",
+                platform: platform,
+                product: .unitTests,
+                bundleId: "io.tuist.\(name)Tests",
+                infoPlist: .default,
+                sources: ["Targets/\(name)/Tests/**"],
+                resources: [],
+                dependencies: [.target(name: name)])
+        return [sources, tests]
     }
 
     /// Helper function to create the application target and the unit test target.
-    private static func makeAppTargets(name: String, platform: Platform, dependencies: [TargetDependency], isDeploy : Bool) -> [Target] {
+    private static func makeAppTargets(name: String, platform: Platform, dependencies: [TargetDependency]) -> [Target] {
         let platform: Platform = platform
         let infoPlist: [String: InfoPlist.Value] = [
             "CFBundleShortVersionString": "1.0",
@@ -108,19 +55,8 @@ extension Project {
             "UILaunchStoryboardName": "LaunchScreen"
             ]
 
-        let mainTarget =
-        isDeploy
-        ?Target (
-             name: name,
-             platform: platform,
-             product: .app,
-             bundleId: "io.tuist.\(name)",
-             infoPlist: .extendingDefault(with: infoPlist),
-             sources: ["Targets/\(name)/Sources/**"],
-             resources: ["Targets/\(name)/Resources/**"],
-             dependencies: dependencies)
-        :Target(
-            name: ("Dev_\(name)"),
+        let mainTarget = Target(
+            name: name,
             platform: platform,
             product: .app,
             bundleId: "io.tuist.\(name)",
@@ -130,6 +66,16 @@ extension Project {
             dependencies: dependencies
         )
 
-        return [mainTarget]
+        let testTarget = Target(
+            name: "\(name)Tests",
+            platform: platform,
+            product: .unitTests,
+            bundleId: "io.tuist.\(name)Tests",
+            infoPlist: .default,
+            sources: ["Targets/\(name)/Tests/**"],
+            dependencies: [
+                .target(name: "\(name)")
+        ])
+        return [mainTarget, testTarget]
     }
 }

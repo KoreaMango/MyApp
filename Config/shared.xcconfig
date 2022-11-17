@@ -1,3 +1,0 @@
-OTHER_SWIFT_FLAGS[config=Dev][sdk=*] = $(inherited) -DDev
-OTHER_SWIFT_FLAGS[config=Alpha][sdk=*] = $(inherited) -DAlpha
-OTHER_SWIFT_FLAGS[config=Prod][sdk=*] = $(inherited) -DProd
