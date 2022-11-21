@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF5F35627185A15B8978E378"
-               BuildableName = "TuistMyApp.app"
-               BlueprintName = "TuistMyApp"
-               ReferencedContainer = "container:TuistMyApp.xcodeproj">
+               BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
+               BuildableName = "App.app"
+               BlueprintName = "App"
+               ReferencedContainer = "container:Projects/TuistMyApp/App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39D99C85C7158A073AFFBFCA"
-               BuildableName = "TuistMyAppKit.framework"
-               BlueprintName = "TuistMyAppKit"
-               ReferencedContainer = "container:TuistMyApp.xcodeproj">
+               BlueprintIdentifier = "E78806FC49A55CB00B607B87"
+               BuildableName = "AppKit.framework"
+               BlueprintName = "AppKit"
+               ReferencedContainer = "container:Projects/TuistMyAppKit/AppKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -42,52 +42,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB55D15D4C3F4CDE7A1FDC80"
-               BuildableName = "TuistMyAppKitTests.xctest"
-               BlueprintName = "TuistMyAppKitTests"
-               ReferencedContainer = "container:TuistMyApp.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D215299D694A9586A00D0BD"
-               BuildableName = "TuistMyAppTests.xctest"
-               BlueprintName = "TuistMyAppTests"
-               ReferencedContainer = "container:TuistMyApp.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7EA78F9DDE21B2D28A6F8970"
-               BuildableName = "TuistMyAppUI.framework"
-               BlueprintName = "TuistMyAppUI"
-               ReferencedContainer = "container:TuistMyApp.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87B375261049E7C974F74FB2"
-               BuildableName = "TuistMyAppUITests.xctest"
-               BlueprintName = "TuistMyAppUITests"
-               ReferencedContainer = "container:TuistMyApp.xcodeproj">
+               BlueprintIdentifier = "5BC0568C9DB033534C40FD51"
+               BuildableName = "AppUI.framework"
+               BlueprintName = "AppUI"
+               ReferencedContainer = "container:Projects/TuistMyAppUI/AppUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -98,36 +56,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB55D15D4C3F4CDE7A1FDC80"
-               BuildableName = "TuistMyAppKitTests.xctest"
-               BlueprintName = "TuistMyAppKitTests"
-               ReferencedContainer = "container:TuistMyApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D215299D694A9586A00D0BD"
-               BuildableName = "TuistMyAppTests.xctest"
-               BlueprintName = "TuistMyAppTests"
-               ReferencedContainer = "container:TuistMyApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87B375261049E7C974F74FB2"
-               BuildableName = "TuistMyAppUITests.xctest"
-               BlueprintName = "TuistMyAppUITests"
-               ReferencedContainer = "container:TuistMyApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -144,10 +72,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF5F35627185A15B8978E378"
-            BuildableName = "TuistMyApp.app"
-            BlueprintName = "TuistMyApp"
-            ReferencedContainer = "container:TuistMyApp.xcodeproj">
+            BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:Projects/TuistMyApp/App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -161,10 +89,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF5F35627185A15B8978E378"
-            BuildableName = "TuistMyApp.app"
-            BlueprintName = "TuistMyApp"
-            ReferencedContainer = "container:TuistMyApp.xcodeproj">
+            BlueprintIdentifier = "93E9E330FC2CE7458D9C925F"
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:Projects/TuistMyApp/App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

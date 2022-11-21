@@ -6,76 +6,38 @@ import ProjectDescription
 /// See https://docs.tuist.io/guides/helpers/
 
 extension Project {
-    /// Helper function to create the Project for this ExampleApp
-    public static func app(name: String, platform: Platform, additionalTargets: [String], isExceptDepen : Bool) -> Project {
-        var targets = makeAppTargets(name: name,
-                                     platform: platform,
-                                     dependencies:
-                                        isExceptDepen
-                                        ? []
-                                        : additionalTargets.map {
-                                            TargetDependency.target(name: $0)
-                                        })
-        targets += additionalTargets.flatMap({ makeFrameworkTargets(name: $0, platform: platform) })
-        return Project(name: name,
-                       organizationName: "tuist.io",
-                       targets: targets)
-    }
-
-    // MARK: - Private
-
-    /// Helper function to create a framework target and an associated unit test target
-    private static func makeFrameworkTargets(name: String, platform: Platform) -> [Target] {
-        let sources = Target(name: name,
-                platform: platform,
-                product: .framework,
-                bundleId: "io.tuist.\(name)",
-                infoPlist: .default,
-                sources: ["Targets/\(name)/Sources/**"],
-                resources: [],
-                dependencies: [])
-        let tests = Target(name: "\(name)Tests",
-                platform: platform,
-                product: .unitTests,
-                bundleId: "io.tuist.\(name)Tests",
-                infoPlist: .default,
-                sources: ["Targets/\(name)/Tests/**"],
-                resources: [],
-                dependencies: [.target(name: name)])
-        return [sources, tests]
-    }
-
-    /// Helper function to create the application target and the unit test target.
-    private static func makeAppTargets(name: String, platform: Platform, dependencies: [TargetDependency]) -> [Target] {
-        let platform: Platform = platform
-        let infoPlist: [String: InfoPlist.Value] = [
-            "CFBundleShortVersionString": "1.0",
-            "CFBundleVersion": "1",
-            "UIMainStoryboardFile": "",
-            "UILaunchStoryboardName": "LaunchScreen"
-            ]
-
-        let mainTarget = Target(
+    public static func target(
+        name: String,
+        product: Product,
+        infoPlist: InfoPlist = .default,
+        sources: SourceFilesList,
+        resources:ResourceFileElements? = nil,
+        dependencies: [TargetDependency] = [],
+        scripts : [TargetScript] = [],
+        baseSettings: ProjectDescription.SettingsDictionary = [:],
+        coreDataModels: [CoreDataModel] = []
+    ) -> Target {
+        return Target(
             name: name,
-            platform: platform,
-            product: .app,
-            bundleId: "io.tuist.\(name)",
-            infoPlist: .extendingDefault(with: infoPlist),
-            sources: ["Targets/\(name)/Sources/**"],
-            resources: ["Targets/\(name)/Resources/**"],
-            dependencies: dependencies
+            platform: .iOS,
+            product: product,
+            bundleId: "com.koreamango.\(name.lowercased())",
+            infoPlist: infoPlist,
+            sources: sources,
+            resources: resources,
+            scripts: scripts,
+            dependencies: dependencies,
+            settings: .settings(
+                base: [
+                    "OTHER_LDFLAGS": "$(inherited)"
+                ].merging(baseSettings) { $1 },
+                configurations: [],
+                defaultSettings: .recommended(excluding: [
+                    "TARGETED_DEVICE_FAMILY",
+                    "SWIFT_ACTIVE_COMPILATION_CONDITIONS",
+                ])
+            ),
+            coreDataModels: coreDataModels
         )
-
-        let testTarget = Target(
-            name: "\(name)Tests",
-            platform: platform,
-            product: .unitTests,
-            bundleId: "io.tuist.\(name)Tests",
-            infoPlist: .default,
-            sources: ["Targets/\(name)/Tests/**"],
-            dependencies: [
-                .target(name: "\(name)")
-        ])
-        return [mainTarget, testTarget]
     }
 }
