@@ -14,11 +14,11 @@ let localHelper = LocalHelper(name: "MyPlugin")
 
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
 let workspace = Workspace(
-    name: "TuistMyApp",
+    name: "MyApp",
     projects: [
-        "Projects/TuistMyApp",
-        "Projects/TuistMyAppKit",
-        "Projects/TuistMyAppUI"
+        "Projects/MyApp",
+        "Projects/MyAppKit",
+        "Projects/MyAppUI"
     ],
     generationOptions: .options(
         enableAutomaticXcodeSchemes: false,

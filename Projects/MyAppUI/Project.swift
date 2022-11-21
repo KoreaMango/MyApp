@@ -12,7 +12,7 @@ let localHelper = LocalHelper(name: "MyPlugin")
 
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
 let project = Project(
-    name: "AppKit",
+    name: "MyAppUI",
     organizationName: "com.koreamango",
     options: .options(automaticSchemesOptions: .disabled),
     packages: [],
@@ -27,7 +27,7 @@ let project = Project(
 //    ),
     targets: [
         Project.target(
-            name: "AppKit",
+            name: "MyAppUI",
             product: .framework,
             infoPlist: .default,
             sources: "Sources/**")
