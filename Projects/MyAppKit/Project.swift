@@ -4,8 +4,6 @@ import MyPlugin
 import Foundation
 
 // MARK: - Project
-let tuistDependencies =  ProcessInfo.processInfo.environment["TUIST_EXCEPT_FRAMEWORK"]
-let isExceptDepen = (tuistDependencies == "Y")
 
 // Local plugin loaded
 let localHelper = LocalHelper(name: "MyPlugin")

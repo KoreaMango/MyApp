@@ -1,6 +1,6 @@
 import UIKit
-import TuistMyAppKit
-import TuistMyAppUI
+import MyAppKit
+import MyAppUI
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,9 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         viewController.view.backgroundColor = .white
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
-        TuistMyAppKit.hello()
-        TuistMyAppUI.hello()
-
+      
         return true
     }
 

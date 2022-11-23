@@ -5,8 +5,8 @@ import Foundation
 
 
 // MARK: - Project
-let tuistDependencies =  ProcessInfo.processInfo.environment["TUIST_EXCEPT_FRAMEWORK"]
-let isExceptDepen = (tuistDependencies == "Y")
+let tuistDeploy = ProcessInfo.processInfo.environment["TUIST_DEPLOY"]
+let isDeploy = (tuistDeploy == "App")
 
 // Local plugin loaded
 let localHelper = LocalHelper(name: "MyPlugin")
@@ -16,18 +16,13 @@ let project = Project(
     name: "MyApp",
     organizationName: "com.koreamango",
     options: .options(automaticSchemesOptions: .disabled),
-    packages: [],
-//    settings: .settings(
-//        configurations: [
-//            .debug(
-//                name: "Dev",
-//                settings: [:],
-//                xcconfig: "Config/Dev.xcconfig"
-//            )
-//        ]
-//    ),
+    packages: [
+        .remote(url: "https://github.com/FLEXTool/FLEX.git",
+                requirement: .upToNextMajor(from: "5.22.10"))
+    ],
     targets: [
-        Project.target(
+        isDeploy
+        ? Project.target(
             name: "MyApp",
             product: .app,
             infoPlist: .default,
@@ -35,9 +30,21 @@ let project = Project(
             resources: "Resources/**",
             dependencies: [
                 .project(target: "MyAppKit", path: .relativeToRoot("Projects/MyAppKit")),
-                .project(target: "MyAppUI", path: .relativeToRoot("Projects/MyAppUI"))
+                .project(target: "MyAppUI", path: .relativeToRoot("Projects/MyAppUI")),
+            ]
+        )
+        : Project.target(
+            name: "MyDevApp",
+            product: .app,
+            infoPlist: .default,
+            sources: ["Sources/**", "DevSources/**"],
+            resources: "Resources/**",
+            dependencies: [
+                .project(target: "MyAppKit", path: .relativeToRoot("Projects/MyAppKit")),
+                .project(target: "MyAppUI", path: .relativeToRoot("Projects/MyAppUI")),
+                .package(product: "FLEX")
             ]
         )
     ]
-//    schemes: []
 )
+
