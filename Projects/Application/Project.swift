@@ -13,7 +13,7 @@ let localHelper = LocalHelper(name: "MyPlugin")
 
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
 let project = Project(
-    name: "MyApp",
+    name: "Application",
     organizationName: "com.koreamango",
     options: .options(automaticSchemesOptions: .disabled),
     packages: [
@@ -23,25 +23,22 @@ let project = Project(
     targets: [
         isDeploy
         ? Project.target(
-            name: "MyApp",
+            name: "Application",
             product: .app,
             infoPlist: .default,
             sources: "Sources/**",
             resources: "Resources/**",
             dependencies: [
-                .project(target: "MyAppKit", path: .relativeToRoot("Projects/MyAppKit")),
-                .project(target: "MyAppUI", path: .relativeToRoot("Projects/MyAppUI")),
+                
             ]
         )
         : Project.target(
-            name: "MyDevApp",
+            name: "DevApplication",
             product: .app,
             infoPlist: .default,
             sources: ["Sources/**", "DevSources/**"],
             resources: "Resources/**",
             dependencies: [
-                .project(target: "MyAppKit", path: .relativeToRoot("Projects/MyAppKit")),
-                .project(target: "MyAppUI", path: .relativeToRoot("Projects/MyAppUI")),
                 .package(product: "FLEX")
             ]
         )

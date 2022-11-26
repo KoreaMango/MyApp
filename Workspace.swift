@@ -12,11 +12,9 @@ let localHelper = LocalHelper(name: "MyPlugin")
 
 // Creates our project using a helper function defined in ProjectDescriptionHelpers
 let workspace = Workspace(
-    name: "MyApp",
+    name: "Application",
     projects: [
-        "Projects/MyApp",
-        "Projects/MyAppKit",
-        "Projects/MyAppUI"
+        "Projects/Application",
     ],
     generationOptions: .options(
         enableAutomaticXcodeSchemes: false,
