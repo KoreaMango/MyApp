@@ -1,6 +1,5 @@
 import UIKit
-import MyAppKit
-import MyAppUI
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
       
+        #if DEV
+        print("DEV")
+        #elseif QA
+        print("QA")
+        #elseif PROD
+        print("PROD")
+        #endif
+        print("\n")
+        
         return true
     }
 

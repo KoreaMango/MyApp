@@ -5,6 +5,7 @@ import Foundation
 
 
 // MARK: - Project
+
 let tuistDeploy = ProcessInfo.processInfo.environment["TUIST_DEPLOY"]
 let isDeploy = (tuistDeploy == "App")
 
